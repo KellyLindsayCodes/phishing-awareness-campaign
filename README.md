@@ -1,7 +1,5 @@
 # Phishing Campaign Simulation (GoPhish + MailHog)
 
-## Live Pages
-
 ## 🎯Project Overview 
 This project is a phishing simulation training exercise. A controlled phishing email is sent to employees of a fictional company, SecureNet Systems. If recipients fall for the simulated attack, they are required to complete a phishing awareness training module.
 
