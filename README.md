@@ -116,15 +116,15 @@ Once campaign is launched, progress can be monitored by:
 
 ## Screenshots 
 ### Phishing Email Template sent to recipients
-![alt text](image.png)
+![alt text](/images/image.png)
 ### Index page recipients are taken to if data submitted
-![alt text](image-1.png)
+![alt text](/images/image-1.png)
 ### Phishing training module for recipients to learn from
-![alt text](image-2.png)
+![alt text](/images/image-2.png)
 ### GoPhish Dashboard and recipient data
-![alt text](image-3.png)
+![alt text](/images/image-3.png)
 ### MailHog Shows Evidence of Email Sent
-![alt text](image-4.png)
+![alt text](/images/image-4.png)
 
 ## Acknowledgements
 Some training module questions were adapted from the original github https://github.com/NoisyPlatypus/itsolutions.
