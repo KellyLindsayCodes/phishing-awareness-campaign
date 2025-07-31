@@ -21,13 +21,14 @@ This project is a phishing simulation training exercise. A controlled phishing e
 
 ## ⚙️ Environment Setup
 1. Open the terminal in your Kali Linux VM
+
 2.Start GoPhish
 ```
 cd /path/to/gophish
 chmod +x gophish
 sudo ./gophish
 ```
-2. Start MailHog
+3. Start MailHog
 ```
 cd /path/to/MailHog
 chmod +x MailHog
