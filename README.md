@@ -4,12 +4,12 @@
 This project is a phishing simulation training exercise. A controlled phishing email is sent to employees of a fictional company, SecureNet Systems. If recipients fall for the simulated attack, they are required to complete a phishing awareness training module.
 
 ## 📚 Table of Contents
-- Requirements
-- Environment Setup
-- Creating Your Campaign
-- Email & Landing Pages
-- User Group & Launch
-- Tracking Engagement
+- [Requirements](#requirements)
+- [Environment Setup](#environment-setup)
+- [Creating Your Campaign](#creating-your-campaign)
+- [Email & Landing Pages](#email-&-landing-pages)
+- [User Group & Launch](#user-group&-launch)
+- [Tracking Engagement](#tracking-engagement)
 
 ## 🧰 Requirements
 - Kali Linux VM
