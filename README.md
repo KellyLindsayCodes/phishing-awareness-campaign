@@ -1,17 +1,15 @@
 # Phishing Campaign Simulation (GoPhish + MailHog)
 
-## Live Pages
-
 ## 🎯Project Overview 
 This project is a phishing simulation training exercise. A controlled phishing email is sent to employees of a fictional company, SecureNet Systems. If recipients fall for the simulated attack, they are required to complete a phishing awareness training module.
 
 ## 📚 Table of Contents
-- Requirements
-- Environment Setup
-- Creating Your Campaign
-- Email & Landing Pages
-- User Group & Launch
-- Tracking Engagement
+- [Requirements](#requirements)
+- [Environment Setup](#environment-setup)
+- [Creating Your Campaign](#creating-your-campaign)
+- [Email & Landing Pages](#email-&-landing-pages)
+- [User Group & Launch](#user-group&-launch)
+- [Tracking Engagement](#tracking-engagement)
 
 ## 🧰 Requirements
 - Kali Linux VM
@@ -21,25 +19,25 @@ This project is a phishing simulation training exercise. A controlled phishing e
 
 ## ⚙️ Environment Setup
 1. Open the terminal in your Kali Linux VM
-2.Start GoPhish
+2. Start GoPhish
 ```
 cd /path/to/gophish
 chmod +x gophish
 sudo ./gophish
 ```
-2. Start MailHog
+3. Start MailHog
 ```
 cd /path/to/MailHog
 chmod +x MailHog
 ./MailHog
 ```
-3. Access Dashboards
+4. Access Dashboards
 ```
 GoPhish: https://127.0.0.1:3333 (default: admin/gophish)
 
 MailHog: http://127.0.0.1:8025
 ```
-4. Find Your VM's IP Address
+5. Find Your VM's IP Address
 ```
 ip addr show
 #or
