@@ -21,8 +21,7 @@ This project is a phishing simulation training exercise. A controlled phishing e
 
 ## ⚙️ Environment Setup
 1. Open the terminal in your Kali Linux VM
-
-2.Start GoPhish
+2. Start GoPhish
 ```
 cd /path/to/gophish
 chmod +x gophish
@@ -34,13 +33,13 @@ cd /path/to/MailHog
 chmod +x MailHog
 ./MailHog
 ```
-3. Access Dashboards
+4. Access Dashboards
 ```
 GoPhish: https://127.0.0.1:3333 (default: admin/gophish)
 
 MailHog: http://127.0.0.1:8025
 ```
-4. Find Your VM's IP Address
+5. Find Your VM's IP Address
 ```
 ip addr show
 #or
