@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Alert - SecureNet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ecf3f3;
+            margin: 0;
+            padding: 20px;
+            color: #2e3b4e;
+        }
+        .email-wrapper {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            border: 1px solid #d3e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .email-header {
+            background-color: #0a3d62;
+            padding: 20px;
+            text-align: center;
+        }
+        .email-header img {
+            max-width: 80px;
+        }
+        .email-content {
+            padding: 25px;
+        }
+        .email-content h2 {
+            color: #0a3d62;
+            border-left: 5px solid #17bebb;
+            padding-left: 12px;
+            margin-top: 0;
+        }
+        .alert-box {
+            background-color: #e0f7fa;
+            border-left: 4px solid #17bebb;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #17bebb;
+            color: white;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .email-footer {
+            background-color: #f5f5f5;
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            padding: 15px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-wrapper">
+        <div class="email-header">
+            <h1 style="color: #ffffff; font-size: 24px; margin: 0;">SecureNet Systems</h1>
+        </div>
+        <div class="email-content">
+            <h2>Security Alert</h2>
+            <p>Dear SecureNet User,</p>
+
+            <div class="alert-box">
+                <p><strong>Unusual Activity Detected:</strong> We noticed suspicious login attempts on your account. To protect your data, we recommend immediate verification.</p>
+            </div>
+
+            <p>To maintain your account’s safety and prevent service interruptions, please confirm your credentials using the secure link below.</p>
+
+            <center>
+                <a href="{{.URL}}" class="btn">Secure Your Account</a>
+            </center>
+
+            <p style="margin-top: 30px;">Thank you for helping us keep your account safe,</p>
+            <p><strong>SecureNet Systems Security Team</strong></p>
+        </div>
+        <div class="email-footer">
+            <p>© 2025 SecureNet Systems | This is an automated message. Please do not reply.</p>
+            <p>If this alert wasn’t triggered by you, please <a href="#">contact our support team</a> immediately.</p>
+        </div>
+    </div>
+    {{.Tracker}}
+</body>
+</html>
